@@ -38,3 +38,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 5. Don't worry about image. Don't show it
 6. User details should be fetched by userId via /users: https://jsonplaceholder.typicode.com/users/1
 7. You must use Typescript. Limit the use of any keyword
+8. DONT PUSH CODE IN MAIN BRANCH, CREATE BRANCH WITH YOUR OWN NAME AND PUSH IT
