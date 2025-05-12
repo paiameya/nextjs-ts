@@ -52,3 +52,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 8. infinite scroller is same like Facebook and Instagram, where you scroll till the bottom of the page and it fetches the next page
 9. When you define props and state inside the components and response, request of the API callers use Typescript
 10. Ensure that the post is a component which is used in the page.tsx via .map
+11. Please playaround with Tailwind CSS utilities as well ( check out the className property in page.tsx. You will see something like flex, flex-col which is shorthand for defining css properties.)
