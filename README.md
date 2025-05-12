@@ -29,7 +29,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-### Task
+### Aim
 
 1. Fetch and view posts: https://jsonplaceholder.typicode.com/posts
 2. Implement infinite scroller: Eg https://jsonplaceholder.typicode.com/posts?_start=0&_limit=10
@@ -39,3 +39,16 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 6. User details should be fetched by userId via /users: https://jsonplaceholder.typicode.com/users/1
 7. You must use Typescript. Limit the use of any keyword
 8. DONT PUSH CODE IN MAIN BRANCH, CREATE BRANCH WITH YOUR OWN NAME AND PUSH IT
+
+## Steps to acheive the aim
+
+1. Run the project as mentioned at the beginning of this document
+2. Explore the purpose served by app/layout.tsx and app/page.tsx
+3. Make some small changes in app/layout.tsx and app/page.tsx to understand how they work
+4. Install postman
+5. Call from postman: https://jsonplaceholder.typicode.com/posts
+6. Call from postman: https://jsonplaceholder.typicode.com/posts?_start=0&_limit=10 and change the value of \_start and \_limit to see how pagination works
+7. Once you call apis from postman please check their response to understand their JSON structure
+8. infinite scroller is same like Facebook and Instagram, where you scroll till the bottom of the page and it fetches the next page
+9. When you define props and state inside the components and response, request of the API callers use Typescript
+10. Ensure that the post is a component which is used in the page.tsx via .map
