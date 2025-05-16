@@ -1,19 +1,21 @@
-// export default function page(){
-//     return <div>My Page </div>
-// }
-
+import Footer from "./footer"
+import Home from "./Home"
+import Login from "./Login";
 export default function HeaderPage() {
   return (
     <div>
       <header style={styles.header}>
         <h1 style={styles.logo}>My Website</h1>
-        <button>search .....</button>
+        <button style={styles.search}>search.....</button>
         <nav style={styles.nav}>
           <a href="/" style={styles.link}>Home</a>
           <a href="/about" style={styles.link}>About</a>
           <a href="/contact" style={styles.link}>Contact</a>
         </nav>
       </header>
+      <Home />
+      <Login />
+      <Footer />
     </div>
   );
 }
@@ -33,6 +35,11 @@ const styles = {
   nav: {
     display: 'flex',
     gap: '15px',
+  },
+
+  search: {
+    border:'1px solid black',
+    width:'200px',
   },
   
   link: {
